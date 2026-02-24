@@ -5,7 +5,6 @@ import { Analytics } from "@vercel/analytics/next";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { WaitlistProvider } from "@/components/providers/waitlist-provider";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const geist = Geist({
   subsets: ["latin"],
